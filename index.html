@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mini 3D Survival</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div id="overlay">
+      <h1>Mini 3D Survival</h1>
+      <p>Кликни для старта и захвата курсора.</p>
+      <ul>
+        <li>W A S D — движение</li>
+        <li>Space — прыжок</li>
+        <li>Shift — ускорение</li>
+        <li>Caps Lock — присесть/встать</li>
+        <li>ЛКМ — прицеливание</li>
+        <li>ПКМ — стрельба</li>
+        <li>1 / 2 — пистолет / винтовка</li>
+      </ul>
+    </div>
+
+    <div id="hud">
+      <div class="panel">HP: <span id="hp">100</span></div>
+      <div class="panel">Оружие: <span id="weapon">Пистолет</span></div>
+      <div class="panel">Патроны: <span id="ammo">12 / 12</span></div>
+      <div class="panel">Резерв: <span id="reserve">48</span></div>
+      <div class="panel">Аптечки: <span id="medkits">1</span></div>
+      <div class="panel">Улучшение: <span id="upgrade">x1.0</span></div>
+    </div>
+
+    <div id="crosshair"></div>
+
+    <script type="module" src="main.js"></script>
+  </body>
+</html>
